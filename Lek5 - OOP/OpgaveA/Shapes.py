@@ -1,6 +1,5 @@
 import math
 
-
 class Squares:
     def __init__(self, side1, side2):
         assert type(side1) == int and type(side2) == int, "ints not used"
@@ -78,8 +77,6 @@ class Triangles:
         other_sum = other.getArea()
 
         return (self_sum + other_sum)
-
-
 
 
 
